@@ -1,5 +1,9 @@
 # Meissner Etkisi, Tip-I/Tip-II Ayrımı ve Manyetik Levitasyon
 
+<p align="center">
+  <img src="../assets/levitation_banner.png" alt="Meissner Etkisi ve Manyetik Levitasyon Banner" width="100%" />
+</p>
+
 Süperiletkenliğin en büyüleyici özelliklerinden biri olan **manyetik levitasyon**, sadece sıfır direncin değil, malzemenin içinde manyetik alan barındırmaması olarak tanımlanan **kusursuz diyamanyetizma** (Meissner Etkisi) ve **manyetik akı çivilemesi** (flux pinning) gibi kuantum mekaniksel olguların bir bileşimidir.
 
 Bu modülde, manyetik alan-süperiletken etkileşiminin matematiksel teorisi (London Denklemleri), malzeme sınıflandırmaları, **Abrikosov Girdap Kafesi**, **Mıknatıslanma Giderim Faktörü** ve bu olguların mühendislik uygulamalarındaki dinamikleri incelenmektedir.

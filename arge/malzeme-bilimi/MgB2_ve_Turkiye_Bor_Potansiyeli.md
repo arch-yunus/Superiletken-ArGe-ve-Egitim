@@ -1,5 +1,9 @@
 # İleri Malzeme Analizi: Magnezyum Diborür (MgB2) ve Bor Teknolojileri
 
+<p align="center">
+  <img src="../../assets/mgb2_banner.png" alt="MgB2 ve Bor Teknolojileri Banner" width="100%" />
+</p>
+
 2001 yılında Jun Akimitsu ve ekibi tarafından $39\text{ K}$ sıcaklıkta süperiletkenlik gösterdiği keşfedilen **Magnezyum Diborür ($MgB_2$)**, malzeme bilimi ve süperiletken şebeke topolojilerinde devrim yaratmıştır. Geleneksel metalik BCS süperiletkenleri (örneğin $NbTi$, $Nb_3Sn$) sıvı helyum ($4.2\text{ K}$) ile soğutulmaya ihtiyaç duyarken, $MgB_2$'nin $39\text{ K}$ olan kritik sıcaklığı, kapalı döngü kriyojenik soğutucularla (cryocoolers) veya sıvı neon ($27\text{ K}$) / sıvı hidrojen ($20\text{ K}$) kullanılarak kolayca aşılabilmektedir.
 
 Bu çalışmada, $MgB_2$'nin kristalografik yapısı, iki bantlı (two-band) kuantum mekaniksel davranış modelleri, **Karbon/Kimyasal Katkılama (Doping) Mekanizmaları**, endüstriyel tel/kablo üretim teknolojileri (**PIT Parametreleri Tablosu**) ve Türkiye'nin stratejik bor rezervlerine dayalı yerli Ar-Ge yol haritası akademik düzeyde incelenmektedir.

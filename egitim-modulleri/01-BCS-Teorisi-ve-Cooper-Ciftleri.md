@@ -1,5 +1,9 @@
 # Kuantum Temelleri: BCS Teorisi ve Cooper Çiftleri
 
+<p align="center">
+  <img src="../assets/bcs_banner.png" alt="BCS Teorisi ve Cooper Çiftleri Banner" width="100%" />
+</p>
+
 Süperiletkenlik, basitçe elektriksel direncin sıfıra düşmesi değil, makroskopik ölçekte gözlemlenebilen ve kendine özgü termodinamik ve elektromanyetik kuralları olan kolektif bir kuantum durumudur. Klasik Drude modeline göre, iletkenlerdeki serbest elektronlar kristal kafes yapısındaki termal titreşimler (fononlar) ve kusurlarla saçılma (scattering) yaşayarak kinetik enerjilerini ısıya dönüştürürler (Joule ısınması). Süperiletkenlerde ise kritik sıcaklığın ($T_c$) altında bu saçılma mekanizması tamamen ortadan kalkar.
 
 Bu modülde, süperiletkenliğin kuantum mekaniksel temeli olan **BCS (Bardeen-Cooper-Schrieffer) Teorisi**, **Cooper Çiftleri** oluşumu, **Pippard Lokal Olmayan Elektrodinamiği** ve makroskopik **Ginzburg-Landau Teorisi** analitik olarak incelenmektedir.

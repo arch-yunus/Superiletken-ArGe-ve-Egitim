@@ -1,5 +1,9 @@
 # Sistem Mimarisi: Sıfır Kayıplı Kriyojenik Enerji Şebekeleri
 
+<p align="center">
+  <img src="../../assets/grid_banner.png" alt="Sıfır Kayıplı Kriyojenik Enerji Şebekeleri Banner" width="100%" />
+</p>
+
 Mevcut elektrik iletim altyapıları, geleneksel yüksek voltajlı bakır veya alüminyum hava hatlarına (overhead lines) dayanmaktadır. Bu hatlarda üretilen elektriğin yaklaşık $\%5$ ila $\%10$'u Joule ısınması ($I^2 R$) nedeniyle doğrudan atmosfere ısı olarak kaybedilmektedir. Yoğun nüfuslu metropollerde yüksek gerilim hatlarının yer altına alınması, yalıtım ve alan darlığı sebebiyle klasik kablolarla aşırı maliyetli ve verimsizdir.
 
 **Yüksek Sıcaklık Süperiletken (HTS - High-Temperature Superconducting)** kablo, **Süperiletken Transformatör** ve **SMES (Superconducting Magnetic Energy Storage)** mimarileri, geleneksel sistemlerle aynı fiziksel kesit alanında **10 kata kadar daha fazla akım** taşıyabilme, sıfır Joule iletim kaybı ve milisaniye hızında aktif güç stabilizasyonu sağlama kabiliyetine sahiptir. Bu çalışmada, sıfır kayıplı kriyojenik enerji iletim ve depolama şebekelerinin elektromekanik, termodinamik, koruma ve güvenlik mimarileri incelenmektedir.

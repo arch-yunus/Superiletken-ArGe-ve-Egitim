@@ -1,5 +1,9 @@
 # Donanım Mimarisi: Süperiletken Kuantum Devreleri ve RSFQ Mantığı
 
+<p align="center">
+  <img src="../../assets/quantum_hardware_banner.png" alt="Süperiletken Kuantum Devreleri ve RSFQ Mantığı Banner" width="100%" />
+</p>
+
 Geleneksel yarı iletken mikroişlemciler (klasik silikon transistörler), fiziksel küçülme sınırlarına (karanlık silikon - dark silicon ve kuantum tünelleme limitleri) ulaşmıştır. Klasik transistör tabanlı sistemler yüksek frekanslarda ($>5\text{ GHz}$) devasa ısı üreterek termal tıkanmaya neden olurlar. Süperiletken donanım mimarileri ise Josephson eklemleri kullanarak **sıfır Joule ısı kaybıyla** çalışan, **$100\text{ GHz}$ ile $750\text{ GHz}$** frekans aralığında işlem yapabilen dijital mantık aileleri ve kuantum işlemciler (QPU) geliştirmemize imkan tanır.
 
 Bu çalışmada, Josephson eklemlerinin kuantum mekaniği, SQUID manyetometreleri, **SFQ Kuantum Mantık Ailelerinin Gelişimi (RSFQ, ERSFQ, AQFP)**, süperiletken kuantum bilgisayar donanım mimarileri (Transmon Qubit), **Qubit Dekoherens Kaynakları** ve kriyojenik CMOS kontrol arayüzleri akademik düzeyde incelenmektedir.
