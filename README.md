@@ -24,7 +24,8 @@ Superiletken-ArGe-ve-Egitim/
 │
 ├── 📚 egitim-modulleri/                  # Teorik Altyapı ve Kuantum Mekaniksel Temeller
 │   ├── 📄 01-BCS-Teorisi-ve-Cooper-Ciftleri.md
-│   └── 📄 02-Meissner-Etkisi-ve-Levitasyon.md
+│   ├── 📄 02-Meissner-Etkisi-ve-Levitasyon.md
+│   └── 📄 03-Yuksek-Sicaklik-Superiletkenleri-ve-Bakiratlari.md
 │
 ├── 🔬 arge/                              # Malzeme Bilimi ve İleri Sistem Mimarileri
 │   ├── 🧪 malzeme-bilimi/
@@ -41,6 +42,8 @@ Superiletken-ArGe-ve-Egitim/
   Elektron-fonon etkileşiminin Hamiltonian modeli, Cooper çiftlerinin kuantum singlet ($S=0$) durumu, BCS taban durum dalga fonksiyonu ($\Psi_{BCS}$) ve uyarılma spektrumundaki kuantum enerji boşluğu ($\Delta$) analizi. Ek olarak, **Pippard Lokal Olmayan Elektrodinamiği**, **Ginzburg-Landau (GL) Teorisi**, serbest enerji Taylor açınımı ve GL diferansiyel denklemlerinin analitik çözümü.
 * **[Modül 02: Meissner Etkisi ve Manyetik Levitasyon](egitim-modulleri/02-Meissner-Etkisi-ve-Levitasyon.md):** 
   Kusursuz iletkenlik ile diyamanyetizma arasındaki farklar, London Denklemleri ve manyetik nüfuz derinliği ($\lambda_L$), Tip-I/Tip-II süperiletken ayrımı, kuantum akı çivilemesi (flux pinning) ve Maglev dinamikleri. Ek olarak, **Mıknatıslanma Giderim Faktörü ($D$)** ve geometrik arakesit analizleri ile **Abrikosov Girdap Kafesi (Vortex Lattice)** üçgen/kare geometri kararlılığı ve tekil girdap alan dağılımı ($B(r)$).
+* **[Modül 03: Yüksek Sıcaklık Süperiletkenleri, Bakıratlar ve Topolojik Süperiletkenlik](egitim-modulleri/03-Yuksek-Sicaklik-Superiletkenleri-ve-Bakiratlari.md):**
+  Georg Bednorz ve Alex Müller'in seramik keşfiyle McMillan limitinin aşılması, YBCO ve BSCCO kristal yapıları içindeki iki boyutlu bakır-oksijen ($CuO_2$) düzlemlerinin rolü, spin dalgalanmaları kaynaklı **d-dalgası ($d_{x^2-y^2}$) eşleşme simetrisi** ve nodal/anti-nodal kuantum uyarılmaları. Ek olarak, Mott yalıtkanlığından Fermi sıvısına uzanan karmaşık **HTS Faz Diyagramı**, **Sözde-Aralık (Pseudogap) Olgusu**, **Demir Tabanlı Süperiletkenler ($s_\pm$ simetrisi)**, adyabatik **Kitaev Zincir Modeli**, topolojik korumalı sıfır enerjili **Majorana Sınır Durumları (Majorana Zero Modes)** ve hataya dayanıklı topolojik kuantum bilgisayar donanım tasarımları.
 
 ### 🔬 2. Ar-Ge Çalışmaları (Malzeme ve Sistem Tasarımları)
 * **[Malzeme Bilimi: MgB2 ve Türkiye'nin Bor Potansiyeli](arge/malzeme-bilimi/MgB2_ve_Turkiye_Bor_Potansiyeli.md):** 
