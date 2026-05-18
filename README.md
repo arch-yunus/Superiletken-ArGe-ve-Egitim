@@ -5,6 +5,10 @@
 ![Field: Quantum Mechanics & Power Systems](https://img.shields.io/badge/Field-Quantum_%26_Power_Systems-darkred)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
+<p align="center">
+  <img src="superconductor_banner.png" alt="Süperiletken Ar-Ge ve Eğitim Portalı Banner" width="100%" />
+</p>
+
 Bu depo, süperiletkenlik teorisini, bu makroskopik kuantum fenomeninin malzeme bilimi düzeyindeki analizlerini ve modern yüksek performanslı mühendislik ile kuantum bilgi işlem sistemlerine entegrasyonunu inceleyen açık kaynaklı bir **akademik literatür, Ar-Ge ve mimari araştırma portalıdır.**
 
 Depodaki tüm içerikler, kavramsal modelleri, ileri düzey matematiksel/fiziksel denklemleri ve pratik donanım topolojilerini içermektedir.
