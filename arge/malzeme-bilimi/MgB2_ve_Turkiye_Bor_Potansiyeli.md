@@ -2,7 +2,7 @@
 
 2001 yılında Jun Akimitsu ve ekibi tarafından $39\text{ K}$ sıcaklıkta süperiletkenlik gösterdiği keşfedilen **Magnezyum Diborür ($MgB_2$)**, malzeme bilimi ve süperiletken şebeke topolojilerinde devrim yaratmıştır. Geleneksel metalik BCS süperiletkenleri (örneğin $NbTi$, $Nb_3Sn$) sıvı helyum ($4.2\text{ K}$) ile soğutulmaya ihtiyaç duyarken, $MgB_2$'nin $39\text{ K}$ olan kritik sıcaklığı, kapalı döngü kriyojenik soğutucularla (cryocoolers) veya sıvı neon ($27\text{ K}$) / sıvı hidrojen ($20\text{ K}$) kullanılarak kolayca aşılabilmektedir.
 
-Bu çalışmada, $MgB_2$'nin kristalografik yapısı, iki bantlı (two-band) kuantum mekaniksel davranış modelleri, endüstriyel tel/kablo üretim teknolojileri ve Türkiye'nin stratejik bor rezervlerine dayalı yerli Ar-Ge yol haritası akademik düzeyde incelenmektedir.
+Bu çalışmada, $MgB_2$'nin kristalografik yapısı, iki bantlı (two-band) kuantum mekaniksel davranış modelleri, **Karbon/Kimyasal Katkılama (Doping) Mekanizmaları**, endüstriyel tel/kablo üretim teknolojileri (**PIT Parametreleri Tablosu**) ve Türkiye'nin stratejik bor rezervlerine dayalı yerli Ar-Ge yol haritası akademik düzeyde incelenmektedir.
 
 ---
 
@@ -51,13 +51,8 @@ $MgB_2$'yi diğer tüm geleneksel süperiletkenlerden ayıran en radikal fizikse
 ```
 
 ### Bant Karakteristikleri:
-1. **$\sigma$-Bandı (Güçlü Kuplaj):** İki boyutlu Bor katmanlarındaki içi bağlardan ($p_{x,y}$ orbitalleri) kaynaklanır. Kristal kafesin düzlem içi optik fonon modlarıyla ($E_{2g}$ modu) aşırı güçlü bir şekilde etkileşime girer. Sıfır Kelvin'deki enerji boşluğu oldukça büyüktür:
-   
-   $$\Delta_\sigma(0) \approx 7.2\text{ meV}$$
-
-2. **$\pi$-Bandı (Zayıf Kuplaj):** Bor atomlarının düzlem dışı $p_z$ orbitallerinden kaynaklanan üç boyutlu Fermi yüzeyidir. Fonon etkileşimi zayıftır. Sıfır Kelvin'deki enerji boşluğu küçüktür:
-   
-   $$\Delta_\pi(0) \approx 2.3\text{ meV}$$
+1. **$\sigma$-Bandı (Güçlü Kuplaj):** İki boyutlu Bor katmanlarındaki bağlardan ($p_{x,y}$ orbitalleri) kaynaklanır. Kristal kafesin düzlem içi optik fonon modlarıyla ($E_{2g}$ modu) aşırı güçlü bir şekilde etkileşime girer. Sıfır Kelvin'deki enerji boşluğu oldukça büyüktür: $\Delta_\sigma(0) \approx 7.2\text{ meV}$.
+2. **$\pi$-Bandı (Zayıf Kuplaj):** Bor atomlarının düzlem dışı $p_z$ orbitallerinden kaynaklanan üç boyutlu Fermi yüzeyidir. Fonon etkileşimi zayıftır. Sıfır Kelvin'deki enerji boşluğu küçüktür: $\Delta_\pi(0) \approx 2.3\text{ meV}$.
 
 ### İki Bantlı BCS Gap Denklemleri:
 Süperiletkenliği başlatan bu iki bant, birbirleriyle Josephson tipi bir kuantum eşleşme terimi ($V_{\sigma\pi}$) ile etkileşir. Sistem, iki adet kendiyle uyumlu integral denkleminin ortak çözümüyle tanımlanır:
@@ -68,39 +63,45 @@ Burada $V_{ij}$ etkileşim matrisidir:
 
 $$V = \begin{pmatrix} V_{\sigma\sigma} & V_{\sigma\pi} \\ V_{\pi\sigma} & V_{\pi\pi} \end{pmatrix}$$
 
-* $V_{\sigma\sigma}$: $\sigma$ bandı içi çekim gücü (büyük).
-* $V_{\pi\pi}$: $\pi$ bandı içi çekim gücü (küçük).
-* $V_{\sigma\pi}, V_{\pi\sigma}$: İki bant arasındaki geçiş/eşleşme (kuplaj) terimi. Bu terim sıfırdan büyük olduğu için, zayıf olan $\pi$ bandındaki süperiletkenlik de $\sigma$ bandı sayesinde $T_c = 39\text{ K}$ seviyesine kadar korunur.
+---
+
+## 3. Karbon Katkılama (Carbon Doping) ve Üst Kritik Alan ($H_{c2}$) Artışı
+
+Katkılanmamış saf $MgB_2$'nin en büyük dezavantajı, üst kritik manyetik alanının ($H_{c2}$) nispeten düşük olmasıdır (4.2 K sıcaklıkta $H_{c2} \approx 15-18\text{ Tesla}$). Bu değer, ITER gibi füzyon reaktörlerinde veya yüksek alanlı mıknatıslarda kullanımını sınırlar.
+
+### Karbon Katkılama Mekanizması:
+Bor (B) atomlarının bir kısmının yerine Karbon (C) atomlarının ikame edilmesi (substitution), $MgB_2$ kristal kafesinde kontrollü bir yapısal düzensizlik (disorder) oluşturur.
+- **İkame Formülü:** $Mg(B_{1-x}C_x)_2$ (Tipik olarak optimal oran $x \approx 0.05 - 0.08$ arasıdır).
+- **Fiziksel Etki:** Karbon atomunun eklenmesi, Bor petek katmanları içindeki serbest elektron saçılmasını (scattering) dramatik şekilde artırır. Bu durum, süperiletken koherens boyunu ($\xi$) kısaltır.
+- **Üst Kritik Alan Değişimi:** Üst kritik manyetik alan, koherens boyunun karesiyle ters orantılıdır:
+  
+  $$H_{c2}(0) = \frac{\Phi_0}{2\pi\xi^2}$$
+  
+  Koherens boyunun ($\xi$) düzensizlik nedeniyle kısalması, $H_{c2}$ değerini **$15\text{ Tesla}$ seviyesinden $40+\text{ Tesla}$ seviyesine** fırlatır! Bu artış sırasında kritik sıcaklıkta ($T_c$) hafif bir düşüş yaşansa da ($39\text{ K}$'den $\sim 30-35\text{ K}$'e), yüksek manyetik alan performansı bu kaybı fazlasıyla telafi eder.
+- **Katkılama Kaynakları:** Karbon katkılaması için saf amorf karbonun yanı sıra **Karbon Nanotüpler (CNT)**, silisyum karbür ($SiC$), malik asit ($C_4H_6O_5$) veya grafen gibi organik bileşikler de sinterleme aşamasında reaktant olarak kullanılır.
 
 ---
 
-## 3. Endüstriyel Üretim: PIT (Powder-in-Tube) Metodu
+## 4. Endüstriyel Üretim: PIT (Powder-in-Tube) Metodu
 
-$MgB_2$, seramik tabanlı HTS malzemelere (örneğin kırılgan YBCO veya BSCCO) kıyasla çok daha yüksek mekanik işlenebilirliğe ve esnekliğe sahiptir. Endüstriyel ölçekte kilometrelerce uzunlukta $MgB_2$ teli üretmek için **PIT (Powder-in-Tube)** yöntemi uygulanır.
+$MgB_2$, seramik tabanlı HTS malzemelere kıyasla çok daha yüksek mekanik işlenebilirliğe sahiptir. Endüstriyel ölçekte tel üretmek için **PIT (Powder-in-Tube)** yöntemi uygulanır.
 
-```
-       Powder-in-Tube (PIT) Üretim Akış Şeması
-       
-  [Mg + 2B Toz Karışımı] ──► [Metal Tüp Dolumu] ──► [Çekme & Haddeleme] ──► [Isıl İşlem (Sinterleme)]
-                                (Monel / Cu / Fe)       (Çap küçültme)          (650°C - 800°C)
-```
+### PIT Üretim Aşamaları ve Teknik Parametreler:
 
-### PIT Metodu Aşamaları:
-1. **Toz Hazırlama (In-Situ vs Ex-Situ):**
-   * *In-Situ Yöntemi:* Saf elementel Magnezyum (Mg) ve kristal/amorf Bor (B) tozları doğrudan reaksiyona girmemiş halde karıştırılarak metal boruya doldurulur. Reaksiyon, tel son şeklini aldıktan sonra ısıl işlemle gerçekleştirilir.
-   * *Ex-Situ Yöntemi:* Önceden sentezlenmiş $MgB_2$ tozu metal boruya doldurulur. Isıl işlem sadece tanecikler arası sinterlenmeyi (bağlantıyı) artırmak için yapılır.
-2. **Kılıf Seçimi (Metal Buffer Layer):**
-   Magnezyum, yüksek sıcaklıklarda bakır (Cu) gibi iyi iletkenlerle kolayca reaksiyona girerek kırılgan fazlar ($Cu_2Mg$) oluşturur. Bu reaksiyonu önlemek için toz karışımı ile dış bakır kılıf arasına **Demir (Fe), Niyobiyum (Nb) veya Tantal (Ta)** bariyer katmanları serilir.
-3. **Mekanik Deformasyon (Haddeleme):**
-   Tüp, tel çekme makineleri (wire drawing) ve yassılaştırma merdaneleri kullanılarak mikrometrik çaplara kadar küçültülür.
-4. **Isıl İşlem (Sinterleme):**
-   $650^\circ\text{C}$ ile $800^\circ\text{C}$ arasında koruyucu argon atmosferinde sinterleme yapılır. Katı-hal difüzyonu ile ultra yoğun süperiletken çekirdek yapısı elde edilir:
-   
-   $$\text{Mg (sıvı/gaz)} + 2\text{B (katı)} \xrightarrow{\Delta} \text{MgB}_2 \text{ (katı)}$$
+Aşağıdaki tablo, endüstriyel $MgB_2$ tel üretimi esnasında uygulanan kritik metalurjik ve mekanik parametreleri özetlemektedir:
+
+| Parametre | In-Situ Yöntemi | Ex-Situ Yöntemi | Açıklama / Teknik Detay |
+| :--- | :--- | :--- | :--- |
+| **Başlangıç Tozları** | Saf $Mg$ (toz/talaş) + $amorf\ B$ | Önceden sentezlenmiş $MgB_2$ | In-Situ yönteminde reaksiyon borunun içinde gerçekleşir. |
+| **Sinterleme Sıcaklığı** | $650^\circ\text{C} - 750^\circ\text{C}$ | $900^\circ\text{C} - 1000^\circ\text{C}$ | Ex-situ daha yüksek sıcaklık ve uzun sinterleme süresi gerektirir. |
+| **Bariyer Katmanı** | Demir ($Fe$), Niyobiyum ($Nb$), Tantal ($Ta$) | Paslanmaz Çelik, Nikel Alaşımları | $Mg$ ile dış bakır kılıf arasındaki difüzyonu ve faz reaksiyonunu önler. |
+| **Dış Koruyucu Kılıf** | Monel (Ni-Cu alaşımı) veya Bakır ($Cu$) | Monel, Paslanmaz Çelik | Kabloya mekanik mukavemet ve kriyojenik kararlılık (stabilizasyon) sağlar. |
+| **Mekanik Çekme Oranı** | $\%15 - \%20$ (pas başına) | $\%10 - \%15$ (pas başına) | Tel çapını mikron seviyesine düşürmek için uygulanan soğuk çekme oranı. |
+| **Kritik Akım Yoğunluğu ($J_c$)**| $\sim 10^5\text{ A/cm}^2$ ($20\text{ K}$, $2\text{ T}$) | $\sim 10^4\text{ A/cm}^2$ ($20\text{ K}$, $2\text{ T}$) | In-situ yönteminde tanecikler arası bağlantı (connectivity) çok daha iyidir. |
 
 ---
 
-## 4. Stratejik Jeopolitik Analiz: Türkiye Bor Rezervleri
+## 5. Stratejik Jeopolitik Analiz: Türkiye Bor Rezervleri
 
 Magnezyum Diborür teknolojisinin stratejik değeri, bileşenlerinden biri olan **Bor (B)** elementinden kaynaklanmaktadır. Türkiye, dünya genelindeki bor rezervlerinin yaklaşık **%73'üne** sahiptir (Kırka, Emet, Bigadiç ve Kestelek yatakları).
 
@@ -129,5 +130,6 @@ Mevcut durumda Türkiye, ham bor cevherini veya sodyum borat gibi düşük katma
 
 ## Referanslar ve İleri Okuma
 1. Akimitsu, J. (2001). "Superconductivity in MgB2". *Nature*, 410, 63-64.
-2. Suhl, H., Matthias, B. T., & Walker, L. R. (1959). "Bardeen-Cooper-Schrieffer Theory of Superconductivity in the Case of Overlapping Bands". *Physical Review Letters*, 3(12), 552.
-3. Buzea, C., & Yamashita, T. (2001). "Review of the superconducting properties of MgB2". *Superconductor Science and Technology*, 14(11), R115.
+2. Dou, S. X., et al. (2002). "Enhancement of the critical current density and flux pinning of MgB2 superconductor by nanoparticle SiC doping". *Applied Physics Letters*, 81(18), 3419-3421.
+3. Flükiger, R., et al. (2006). "Superconducting properties of MgB2 single and multifilamentary wires". *Physica C: Superconductivity*, 445, 332-337.
+4. Buzea, C., & Yamashita, T. (2001). "Review of the superconducting properties of MgB2". *Superconductor Science and Technology*, 14(11), R115.
